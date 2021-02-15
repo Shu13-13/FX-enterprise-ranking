@@ -1,0 +1,176 @@
+/* Global */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.item{
+    margin-top: 20px;
+}
+
+.heading{
+    background-color: #FF6699;
+    height: 50px;
+    color: white;
+    padding: 10px 0 10px 15px;
+}
+
+.rank{
+    position: relative;
+    top: -23px;
+    left: -23px;
+    padding: 0;
+}
+
+.item_name{
+    position: relative;
+    left: -30px;
+}
+
+img{
+    object-fit: cover;
+}
+
+.value_star{
+    color: gold	;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.description{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.description .left{
+    text-align: center;
+}
+
+.description .left p{
+    font-size: 13px;
+}
+
+.description .right p{
+    margin-bottom: 0px;
+}
+
+.description .right .rader_chart_wrapper{
+    position: relative;
+    left: -10px;
+}
+
+.valuation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.valuation p{
+    font-size: 20px;
+    padding-right: 0;
+    margin: 0;
+}
+
+.valuation .star_wrapper{
+    padding: 0;
+    margin: 0;
+}
+
+.detail_button_area{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.detail_button_area button{
+    background: linear-gradient(180deg, #FFAAFF
+    0%, #FFAAFF 50%, #FF77FF 50%, #FF55FF 100%);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
+.campaign{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.campaign p{
+    font-size: 14px;
+    color: red;
+}
+
+.setup_button_area{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.setup_button_area button{
+    background: linear-gradient(180deg, #FFDBC9
+    0%, #FFCC99 50%, #FF9966 50%, #FF9933 100%);
+    font-size: 25px;
+    border: none;
+    width: 240px;
+    height: 60px;
+}
+
+.review {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.trader{
+    text-align: center;
+}
+
+.trader p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.icon_wrapper{
+    font-size: 50px;
+    border: 3px solid rgb(32, 32, 32) ;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.icon_wrapper i{
+    position: relative;
+    bottom: 5px;
+}
+
+.balloon {
+    display: inline-block;
+    position: relative; 
+    padding: 17px 13px;
+    border: 3px solid rgb(32, 32, 32) ;
+    border-radius: 12px;
+    background: #fff;
+  }
+
+  .balloon::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 15px; 
+    left: -32px;
+    border: 15px solid transparent;
+    border-right: 15px solid rgb(32, 32, 32);
+  }
+  
+  .balloon:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px; 
+    left: -24px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+  }
